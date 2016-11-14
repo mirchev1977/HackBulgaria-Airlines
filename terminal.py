@@ -1,4 +1,5 @@
 class Terminal:
     """docstring for Terminal"""
     def __init__(self, number, max_flights):
-        pass
+        self.number = number
+        self.max_flights = max_flights
